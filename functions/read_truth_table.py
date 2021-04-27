@@ -1,11 +1,10 @@
 from csv import reader
 from csv import DictReader
-import textdot
-import readFileFunctions
+from functions import textdot
+from functions import readFileFunctions
 # read truth table and save them in Verilog format
-moduleName = 'A'
 
-def read_truth_table():
+def compile(moduleName):
     print('---Start Working on conversion ---')
     with open('truthTable.csv', 'r') as read_obj:
         # pass the file object to reader() to get the reader object
@@ -55,8 +54,8 @@ def read_truth_table():
                 input_output_list[i].append(col[titleList[i]])
 
            # input_outbut_list = row
-
-        print(input_output_list)
+        #
+        # print(input_output_list)
         # initialize 1st line
         # out
         for i in range(outputStartAt ,len(titleList)):
@@ -124,5 +123,3 @@ def read_truth_table():
         #     while (index < outputStartAt):
         #         print(row[index])
         #         index += 1
-
-read_truth_table()

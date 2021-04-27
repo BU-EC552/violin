@@ -21,7 +21,7 @@ class ComplexCLI(click.MultiCommand):
         return mod.cli
 
 
-@click.command(cls=ComplexCLI)
+@click.command(cls=ComplexCLI, help='This is a CLI tool for Violin, for more information, please check out our Github @ https://github.com/SweetSourPeter/violin')
 def cli():
     """Welcome to VIOLIN! An all-in-one cli utility tool!"""
     pass

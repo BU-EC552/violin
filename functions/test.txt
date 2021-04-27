@@ -1,0 +1,15 @@
+module a(output in1, in2, in3, input ); 
+  always@(*)
+       begin
+           case({})
+               0'b: {in1in2in3} = 3'b111;
+               0'b: {in1in2in3} = 3'b110;
+               0'b: {in1in2in3} = 3'b101;
+               0'b: {in1in2in3} = 3'b100;
+               0'b: {in1in2in3} = 3'b011;
+               0'b: {in1in2in3} = 3'b010;
+               0'b: {in1in2in3} = 3'b001;
+               0'b: {in1in2in3} = 3'b000;
+           endcase
+       end
+endmodule

@@ -2,28 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a68f99a-32e8-4bae-9a33-0df01f2e8d44" name="Default Changelist" comment="converting">
-      <change afterPath="$PROJECT_DIR$/CLI/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI/commands/cmd_compile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI/commands/cmd_createTruthTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI/commands/cmd_emptyTruthTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI/commands/cmd_startCello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/printViolin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLI/commands/cmd_viewTruth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLI/commands/cmd_viewVerilog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/openFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/commands/cmd_compile.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/commands/cmd_compile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/commands/cmd_createTruthTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/commands/cmd_createTruthTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI/commands/cmd_emptyTruthTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/commands/cmd_emptyTruthTable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/browser/pachong.py" beforeDir="false" afterPath="$PROJECT_DIR$/browser/pachong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conversion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_truth_table/create_empty_truth_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_truth_table/create_empty_truth_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_truth_table/create_truth_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_truth_table/create_truth_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_truth_table/readFileFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_truth_table/readFileFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_truth_table/truthTable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/create_truth_table/truthTable.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_truth_table/hello_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.v" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/tmp.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/create_empty_truth_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/create_empty_truth_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/create_truth_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/create_truth_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/hello_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/hello_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/readFileFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/readFileFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/read_truth_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/read_truth_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/textdot.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/textdot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/truthTable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/functions/truthTable.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_truth_table/verilog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/functions/verilog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truthTable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/truthTable.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +54,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/browser" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CLI" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12524\Documents\GitHub\violin\CLI" />
+      <recent name="C:\Users\12524\Documents\GitHub\violin\CLI\commands" />
       <recent name="C:\Users\12524\Documents\GitHub\violin\browser" />
       <recent name="C:\Users\12524\Documents\GitHub\violin" />
     </key>
@@ -74,7 +73,7 @@
       <recent name="C:\Users\Peter.W\PycharmProjects\violin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.create_empty_truth_table">
+  <component name="RunManager" selected="Python.read_truth_table (1)">
     <configuration name="create_empty_truth_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="violin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_truth_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="violin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/create_truth_table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_truth_table/create_truth_table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/openFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readFileFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="read_truth_table (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="violin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/create_truth_table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_truth_table/readFileFunctions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/read_truth_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.read_truth_table (1)" />
+        <item itemvalue="Python.openFiles" />
         <item itemvalue="Python.create_empty_truth_table" />
         <item itemvalue="Python.pachong" />
         <item itemvalue="Python.read_truth_table" />
-        <item itemvalue="Python.readFileFunctions" />
-        <item itemvalue="Python.create_truth_table" />
       </list>
     </recent_temporary>
   </component>

@@ -9,7 +9,7 @@ from pathlib import Path
 import os
 print (os.getcwd())
 path = Path(os.getcwd())
-path = Path(str(path.parent.absolute()) + '/create_truth_table/verilog.txt')
+path = Path(str(path.parent.absolute()) + '/functions/verilog.txt')
 f = open(path,"r")
 veri = f.read()
 url = 'http://v1.cellocad.org'

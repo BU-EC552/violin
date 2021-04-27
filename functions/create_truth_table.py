@@ -14,10 +14,7 @@ def create_truth_table(intLength:int, logic:str):
     print(TruthTableDefine)
     print(TruthTableDefine.as_pandas().to_csv(r'truthTable.csv', index = False))
     print('-------it is now ready to be modify, olease go to truthTable.csv to modify')
-    try:
-        os.startfile("truthTable.csv")
-    except OSError:
-        print('Error occured')
-
-
-create_truth_table()
+    # try:
+    #     os.startfile("truthTable.csv")
+    # except OSError:
+    #     print('Error occured')

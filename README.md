@@ -28,7 +28,24 @@
 ### RUN(in CMD/cli)
 
 1. pip install --editable .
-2. violin
+
+2. violin(command example)
+
+   1. violin --help
+
+   2. violin startCello --input=pTac --input=pBAD --output=sigmaT7
+
+   3. violin viewTruth
+
+   4. violin viewVerilog
+
+   5. ```python
+      violin emptyTruthTable
+      how many input do you want? [1]: 2
+      
+      ```
+
+      
 
 ### *How we approached*
 

@@ -1,0 +1,15 @@
+module a(output (in1 or (~in2)) and in0, input in0, in1, in2, ); 
+  always@(*)
+       begin
+           case({in0, in1, in2})
+               3'b111: {(in1 or (~in2)) and in0} = 1'b1;
+               3'b110: {(in1 or (~in2)) and in0} = 1'b1;
+               3'b101: {(in1 or (~in2)) and in0} = 1'b0;
+               3'b100: {(in1 or (~in2)) and in0} = 1'b1;
+               3'b011: {(in1 or (~in2)) and in0} = 1'b0;
+               3'b010: {(in1 or (~in2)) and in0} = 1'b0;
+               3'b001: {(in1 or (~in2)) and in0} = 1'b0;
+               3'b000: {(in1 or (~in2)) and in0} = 1'b0;
+           endcase
+       end
+endmodule
