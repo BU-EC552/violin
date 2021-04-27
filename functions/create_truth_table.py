@@ -4,7 +4,7 @@ import os
 
 def create_truth_table(intLength:int, logic:str):
     # in1 and in2
-    # (in1 or (~in2)) => (~in1)
+    # (in1 or (~in2)) and (~in0)
     list = []
     for i in range(intLength):
         list.append('in' + str(i))

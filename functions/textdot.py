@@ -13,9 +13,13 @@ def text(text_to_print,num_of_dots,num_of_loops):
             keyboard.write('\x08')
             sleep(0.1)
 
-
+# import os
+# print (os.getcwd())
+# path = Path(os.getcwd())
+# path = Path(str(path.parent.absolute()) + '/functions/verilog.txt')
+# f = open(path,"r")
 
 def progbar(curr, total, full_progbar):
     frac = curr/total
     filled_progbar = round(frac*full_progbar)
-    print('\r', '#'*filled_progbar + '-'*(full_progbar-filled_progbar), '[{:>7.2%}]\n'.format(frac), end='')
+    print('\r', '#'*filled_progbar + '-'*(full_progbar -filled_progbar), '[{:>7.2%}]\n'.format(frac), end='')

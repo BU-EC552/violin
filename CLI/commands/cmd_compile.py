@@ -6,5 +6,5 @@ import click
 def cli(module):
     from functions.read_truth_table import compile
     # print(module)
-    compile('a')
+    compile(module)
     click.echo('----DONE----')

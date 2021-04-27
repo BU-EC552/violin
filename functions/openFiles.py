@@ -11,3 +11,4 @@ def openVerilog():
         os.startfile("verilog.txt")
     except OSError:
         print('Error occured')
+

@@ -5,7 +5,12 @@ CLI/__init__.py
 CLI/cli.py
 CLI/config_setup.py
 CLI/commands/__init__.py
+CLI/commands/cmd_compile.py
+CLI/commands/cmd_createTruthTable.py
+CLI/commands/cmd_emptyTruthTable.py
 CLI/commands/cmd_startCello.py
+CLI/commands/cmd_viewTruth.py
+CLI/commands/cmd_viewVerilog.py
 violin.egg-info/PKG-INFO
 violin.egg-info/SOURCES.txt
 violin.egg-info/dependency_links.txt
