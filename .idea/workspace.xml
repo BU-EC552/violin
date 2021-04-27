@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a68f99a-32e8-4bae-9a33-0df01f2e8d44" name="Default Changelist" comment="converting" />
+    <list default="true" id="8a68f99a-32e8-4bae-9a33-0df01f2e8d44" name="Default Changelist" comment="converting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,16 +36,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/browser" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Final Project violin/Code/cmdCode" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12524\Documents\GitHub\violin\Final Project violin\Code\cmdCode" />
+      <recent name="C:\Users\12524\Documents\GitHub\violin\Final Project violin\Code\functionCode" />
       <recent name="C:\Users\12524\Documents\GitHub\violin\browser" />
       <recent name="C:\Users\12524\Documents\GitHub\violin" />
       <recent name="C:\Users\12524\Documents\GitHub\violin\CLI" />
-      <recent name="C:\Users\12524\Documents\GitHub\violin\CLI\commands" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\12524\Documents\GitHub\violin\Examples" />

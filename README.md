@@ -6,8 +6,6 @@
 
 [Detailed presentation can see here](https://docs.google.com/presentation/d/14_qUHwvXxcquGgrCJRIU8BuG7QFWK47KHGbUoXAWtFU/edit?usp=sharing)
 
-### *Example*
-
 
 
 ### *Installation*
@@ -39,13 +37,30 @@
 
    4. violin viewVerilog
 
-   5. ```python
+   5. violin createTruthTable
+
+   6. violin compile
+
+   7. ```python
       violin emptyTruthTable
       how many input do you want? [1]: 2
       
       ```
 
-      
+
+
+### Logic* Example*
+
+- *negation*: `'not'`, `'-'`, `'~'`
+- *logical disjunction*: `'or'`
+- *logical nor*: `'nor'`
+- *exclusive disjunction*: `'xor'`, `'!='`
+- *logical conjunction*: `'and'`
+- *logical NAND*: `'nand'`
+- *material implication*: `'=>'`, `'implies'`
+- *logical biconditional*: `'='`
+
+
 
 ### *How we approached*
 
