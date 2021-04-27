@@ -20,7 +20,15 @@
 
    *pip freeze > requirement.txt*
 
-   
+4. Chrome Driver Installation
+   1. check for chrome version: HELP->ABOUT
+   2. download according to chrome version from [Google](https://sites.google.com/chromium.org/driver/downloads?authuser=0)
+   3. If you are on windows, please add it to PATH
+
+### RUN(in CMD/cli)
+
+1. pip install --editable .
+2. violin
 
 ### *How we approached*
 

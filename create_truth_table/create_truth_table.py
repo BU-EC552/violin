@@ -2,8 +2,13 @@ import ttg
 import pathlib
 import os
 
-def create_truth_table():
-    TruthTableDefine = ttg.Truths(['in1', 'in2'], ['in1 and in2', 'in1 or in2', '(in1 or (~in2)) => (~in1)'], ints=True)
+def create_truth_table(intLength:int, logic:str):
+    # in1 and in2
+    # (in1 or (~in2)) => (~in1)
+    list = []
+    for i in range(intLength):
+        list.append('in' + str(i))
+    TruthTableDefine = ttg.Truths(list, [logic], ints=True)
 
 
     print(TruthTableDefine)

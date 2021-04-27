@@ -1,5 +1,5 @@
 
-def write_file(code:str, fileName = 'verilog.txt'):
+def write_file(code:str, fileName = 'test.txt'):
     print("Writing a file..")
     try:
         f = open(fileName, "a")
@@ -10,7 +10,7 @@ def write_file(code:str, fileName = 'verilog.txt'):
         print("Error, Could not write to file")
 
 
-def read_file(fileName = 'verilog.txt'):
+def read_file(fileName = 'test.txt'):
     print("Now reading the file..")
     try:
         f = open(fileName, "r")

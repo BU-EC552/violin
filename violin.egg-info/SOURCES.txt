@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+CLI/__init__.py
+CLI/cli.py
+CLI/config_setup.py
+CLI/commands/__init__.py
+CLI/commands/cmd_startCello.py
+violin.egg-info/PKG-INFO
+violin.egg-info/SOURCES.txt
+violin.egg-info/dependency_links.txt
+violin.egg-info/entry_points.txt
+violin.egg-info/requires.txt
+violin.egg-info/top_level.txt
