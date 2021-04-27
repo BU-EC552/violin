@@ -5,7 +5,6 @@ import os
 
 # the next line can be removed after installation
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-fasdf
 from veriloggen import *
 # module A(output out1,  input in1, in2);
 #  always@(in1,in2)
