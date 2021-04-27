@@ -14,7 +14,7 @@
 
 1. *cd /violin*
 
-2. *pip install -r requirments.txt*
+2. *pip install -r requirment.txt*
 
 3. *create your own requirement or add libraries, please use*
 
