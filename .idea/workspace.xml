@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a68f99a-32e8-4bae-9a33-0df01f2e8d44" name="Default Changelist" comment="converting">
-      <change afterPath="$PROJECT_DIR$/browser/test.UCF.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI/commands/cmd_compile.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/commands/cmd_compile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI/commands/cmd_emptyTruthTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/commands/cmd_emptyTruthTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI/commands/cmd_startCello.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLI/commands/cmd_startCello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser/pachong.py" beforeDir="false" afterPath="$PROJECT_DIR$/browser/pachong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/create_truth_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/create_truth_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/openFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/openFiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/textdot.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/textdot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truthTable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/truthTable.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/violin.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/violin.egg-info/SOURCES.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8a68f99a-32e8-4bae-9a33-0df01f2e8d44" name="Default Changelist" comment="converting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
