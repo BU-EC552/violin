@@ -3,6 +3,7 @@ def write_file(code:str, fileName = 'verilog.txt'):
     print("Writing a file..")
     try:
         f = open(fileName, "a")
+        f.truncate(0)
         f.write(code)
         f.close()
     except Exception:

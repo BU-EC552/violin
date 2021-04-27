@@ -1,6 +1,7 @@
 from csv import reader
 from csv import DictReader
 import textdot
+import readFileFunctions
 # read truth table and save them in Verilog format
 moduleName = 'A'
 
@@ -93,8 +94,11 @@ def read_truth_table():
 
         # save to local txt file
 
-        textdot.progbar(1, 1, 20)
+
         print(line)
+        print('----SAVING----')
+        readFileFunctions.write_file(line, )
+        textdot.progbar(1, 1, 20)
         print('----COMPLETE----')
 
         # for input_outbut in column_names:
